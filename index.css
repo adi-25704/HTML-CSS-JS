@@ -2,17 +2,48 @@
     border: 0%; margin: 0%; box-sizing: border-box;
 }
 header{
-    background-color: aqua;
+    background-color: rgb(30, 40, 40);
+    color: white;
 }
 body{
-    background-color: orange;
+    background-color: rgb(226, 215, 238);
 }
 .tr1{
-    background-color:rgb(57, 89, 247);
+    background-color:rgb(241, 1, 1);
 }
 table{
-    border: 1%; border-radius: 2; background-color: aqua;
+    border: 0px;margin: 0px;padding: 0px; background-color: rgb(30, 40, 40);color: white;
 }
 h1{
     text-align: center;font-size:200%;
 }
+button{
+    border: 0px;background-color: darkviolet; color: white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(241, 1, 1);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(116, 114, 230);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: orange;
+    color: white;
+  }
